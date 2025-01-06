@@ -130,8 +130,8 @@ export async function GET(req: NextRequest) {
 
     const resultDataTag = datatagihan.map(val => {
       const res = {
-        periode : val.f2 ,
-        golongan : val.f7 ,
+        periode : val.f1 ,
+        golongan : val.f2 ,
         stanlalu : parseInt(val.f3),
         stanini : parseInt(val.f4),
         pakaim3 : parseInt(val.f5),
